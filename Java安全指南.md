@@ -250,7 +250,7 @@ public class MainActivity extends Activity {
 </application>
 ```
 ##### 2.1.5 【必须】debuggable 调试设置
-release 版本禁止设置 debuggable 为 true。
+release 版本禁止设置 debuggable 为 false。
 ```java
 <application android:debuggable="false"> 
 </application>
